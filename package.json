@@ -1,44 +1,82 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^2.32.3",
-    "gatsby-image": "^2.11.0",
-    "gatsby-plugin-manifest": "^2.12.0",
-    "gatsby-plugin-offline": "^3.10.0",
-    "gatsby-plugin-react-helmet": "^3.10.0",
-    "gatsby-plugin-sharp": "^2.14.1",
-    "gatsby-source-filesystem": "^2.11.0",
-    "gatsby-transformer-sharp": "^2.12.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
-  },
-  "devDependencies": {
-    "prettier": "2.2.1"
-  },
-  "keywords": [
-    "gatsby"
+  "_args": [
+    [
+      "@ardatan/aggregate-error@0.0.6",
+      "C:\\Users\\HPS\\gatsby-projects\\gatsby-starter-default"
+    ]
   ],
-  "license": "0BSD",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  "_from": "@ardatan/aggregate-error@0.0.6",
+  "_id": "@ardatan/aggregate-error@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-vyrkEHG1jrukmzTPtyWB4NLPauUw5bQeg4uhn8f+1SSynmrOcyvlb1GKQjjgoBzElLdfXCRYX8UnBlhklOHYRQ==",
+  "_location": "/@ardatan/aggregate-error",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@ardatan/aggregate-error@0.0.6",
+    "name": "@ardatan/aggregate-error",
+    "escapedName": "@ardatan%2faggregate-error",
+    "scope": "@ardatan",
+    "rawSpec": "0.0.6",
+    "saveSpec": null,
+    "fetchSpec": "0.0.6"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  "_requiredBy": [
+    "/@graphql-tools/batch-execute/@graphql-tools/utils",
+    "/@graphql-tools/delegate",
+    "/@graphql-tools/delegate/@graphql-tools/utils",
+    "/@graphql-tools/graphql-file-loader/@graphql-tools/utils",
+    "/@graphql-tools/json-file-loader/@graphql-tools/utils",
+    "/@graphql-tools/load/@graphql-tools/utils",
+    "/@graphql-tools/merge/@graphql-tools/utils",
+    "/@graphql-tools/schema/@graphql-tools/utils",
+    "/@graphql-tools/url-loader/@graphql-tools/utils",
+    "/@graphql-tools/utils",
+    "/@graphql-tools/wrap/@graphql-tools/utils",
+    "/gatsby-recipes/@graphql-tools/utils"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ardatan/aggregate-error/-/aggregate-error-0.0.6.tgz",
+  "_spec": "0.0.6",
+  "_where": "C:\\Users\\HPS\\gatsby-projects\\gatsby-starter-default",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+    "url": "https://github.com/sindresorhus/aggregate-error/issues"
+  },
+  "dependencies": {
+    "tslib": "~2.0.1"
+  },
+  "description": "Create an error from multiple errors",
+  "engines": {
+    "node": ">=8"
+  },
+  "homepage": "https://github.com/sindresorhus/aggregate-error#readme",
+  "keywords": [
+    "aggregate",
+    "error",
+    "combine",
+    "multiple",
+    "many",
+    "collection",
+    "iterable",
+    "iterator"
+  ],
+  "license": "MIT",
+  "main": "index.cjs.js",
+  "module": "index.esm.js",
+  "name": "@ardatan/aggregate-error",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/aggregate-error.git"
+  },
+  "sideEffects": false,
+  "typescript": {
+    "definition": "index.d.ts"
+  },
+  "typings": "index.d.ts",
+  "version": "0.0.6"
 }
