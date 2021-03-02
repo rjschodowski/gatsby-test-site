@@ -1,10 +1,8 @@
 import React from 'react'
 import Layout from "../components/layout"
-import Menu from "../components/menu"
 
 const Shelter = () => (
         <Layout>
-            <Menu />
             <h1>Shelters</h1>
             <p>City Rescue Mission of Lansing</p>
             <p><span>Address: </span>2216 S Cedar St, Lansing, MI 48910</p>
