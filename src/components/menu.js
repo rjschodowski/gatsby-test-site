@@ -8,11 +8,8 @@ const Menu = () => (
         }}>
 
         <ul style={{
-            listStyle: 'none',
-            display: 'flex',
-            justifyContent: 'space-evenly'
+            listStyle: 'none'
         }}>
-            <li><Link to="/">Home</Link></li>
             <li><Link to="/food">Food</Link></li>
             <li><Link to="/medical">Medical</Link></li>
             <li><Link to="/shelter">Shelter</Link></li>
