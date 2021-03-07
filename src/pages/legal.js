@@ -11,4 +11,4 @@ const Legal = () => (
         </Layout>
     )
 
-export default Legal;
+export default Legal

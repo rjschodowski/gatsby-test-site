@@ -11,4 +11,4 @@ const Financial = () => (
         </Layout>
     )
 
-export default Financial;
+export default Financial

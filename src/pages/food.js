@@ -1,10 +1,8 @@
 import React from 'react'
 import Layout from "../components/layout"
-import Menu from "../components/menu"
 
 const Food = () => (
         <Layout>
-            <Menu />
             <h1>Food</h1>
             <p>Food Pantry</p>
             <p><span>Website: </span><a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry">Mobile Food Pantry </a></p>
@@ -12,4 +10,4 @@ const Food = () => (
         </Layout>
     )
 
-export default Food;
+export default Food
